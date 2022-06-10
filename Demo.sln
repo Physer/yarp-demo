@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yarp.Forwarder", "src\Yarp.Forwarder\Yarp.Forwarder.csproj", "{E82104F6-E540-40AF-95ED-A510F2B76180}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Api", "src\Demo.Api\Demo.Api.csproj", "{769D4BC6-182B-43A3-9ABF-14FFFD73FF19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Api", "src\Demo.Api\Demo.Api.csproj", "{769D4BC6-182B-43A3-9ABF-14FFFD73FF19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yarp.Auth", "src\Yarp.Auth\Yarp.Auth.csproj", "{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{769D4BC6-182B-43A3-9ABF-14FFFD73FF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{769D4BC6-182B-43A3-9ABF-14FFFD73FF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{769D4BC6-182B-43A3-9ABF-14FFFD73FF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
