@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Demo.Serverless": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32004,
+      "useSSL": false
+    }
+  }
+}

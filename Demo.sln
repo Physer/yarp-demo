@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yarp.Forwarder", "src\Yarp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Api", "src\Demo.Api\Demo.Api.csproj", "{769D4BC6-182B-43A3-9ABF-14FFFD73FF19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yarp.Auth", "src\Yarp.Auth\Yarp.Auth.csproj", "{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yarp.Auth", "src\Yarp.Auth\Yarp.Auth.csproj", "{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{414EC67C-1B88-4165-8366-FA3775D3709B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Serverless", "src\Demo.Serverless\Demo.Serverless.csproj", "{071C9408-723F-44B0-BFA3-E5EC31C91D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,17 @@ Global
 		{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071C9408-723F-44B0-BFA3-E5EC31C91D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071C9408-723F-44B0-BFA3-E5EC31C91D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071C9408-723F-44B0-BFA3-E5EC31C91D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071C9408-723F-44B0-BFA3-E5EC31C91D26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC7DBAA1-BE82-46DC-87E7-0AA48A77DEAE} = {414EC67C-1B88-4165-8366-FA3775D3709B}
+		{071C9408-723F-44B0-BFA3-E5EC31C91D26} = {414EC67C-1B88-4165-8366-FA3775D3709B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1AA9E086-85D6-4245-A0E0-AECA77635968}
