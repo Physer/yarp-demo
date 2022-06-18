@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Demo.Products": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7275"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30235,
+      "useSSL": false
+    }
+  }
+}
